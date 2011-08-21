@@ -1,0 +1,1 @@
+<iframe style="border:0;width:100%;height:400px;" src="pages/sqlbuddy/"></iframe>
