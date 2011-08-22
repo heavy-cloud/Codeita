@@ -96,6 +96,9 @@ table tbody strong { color: #aa0000; }
 							<td>Enabled</td>
 							<td>
 							<?php
+							if(!is_dir(DATA_PATH)){
+								mkdir(DATA_PATH,0777);
+							}
 							if(is_writable(DATA_PATH)){
 								$check['config']=true;
 									echo 'Enabled';
