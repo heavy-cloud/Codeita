@@ -1,0 +1,3 @@
+<FilesMatch "\.(inc|jdb)$>
+deny from all
+</FilesMatch>
