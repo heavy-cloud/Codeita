@@ -88,13 +88,13 @@ function loadFiles(dir){
 			for(var i=0;i<d.files.length;i++){
 				switch(d.files[i].type){
 					case 'dir':
-						var class = 'icon icon-dir';
+						var class_val = 'icon icon-dir';
 						break;
 					case 'file':
-						var class = 'icon icon-file';
+						var class_val = 'icon icon-file';
 						break;
 				}
-				html += '<li class="file-'+d.files[i].type+'" data-filename="'+d.files[i].filename+'" data-path="'+d.files[i].path+'"><span class="'+class+'"></span><span class="file-name">'+d.files[i].filename+'</span></li>';
+				html += '<li class="file-'+d.files[i].type+'" data-filename="'+d.files[i].filename+'" data-path="'+d.files[i].path+'"><span class="'+class_val+'"></span><span class="file-name">'+d.files[i].filename+'</span></li>';
 			}
 		}
 		$("#file-list").html(html);
