@@ -1,7 +1,7 @@
 <?php
 include('src/inc/globals.inc');
 if(!is_file(CONFIG_FILE)){
-	header("Location: setup");
+	header("Location: setup.php");
 }
 ?><!doctype html>
 <html>
