@@ -1,5 +1,5 @@
 <?php
-$home = realpath(__DIR__.'/../../').'/';
+$home = realpath( dirname(__FILE__).'/../../').'/';
 define("DATA_PATH", $home.'data/');
 define("CONFIG_PATH", DATA_PATH.'config/');
 define("FILES_PATH", DATA_PATH.'www/');
